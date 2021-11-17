@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "class": "tsc && node build/class",
+    "method": "tsc && node build/method",
+    "parameter": "tsc && node build/parameter",
+    "property": "tsc && node build/property",
+    "accessors": "tsc && node build/accessors"
   },
   "keywords": [],
   "author": "",
